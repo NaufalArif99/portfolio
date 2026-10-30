@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Naufal Arif Kurniawan | Cyber Security Analyst & Explorer</title>
+<meta name="description" content="Portofolio cyber security analyst, Juara 2 Bug Bounty Nasional 2026, dan pendaki gunung.">
+<meta property="og:title" content="Naufal Arif Kurniawan | Portfolio">
+<meta property="og:type" content="website">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Inter:wght@400;500;600&family=Italianno&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body id="top">
+<header class="top">
+  <div><b>CYBER SECURITY ANALYST</b><span>Security Researcher &amp; Explorer</span></div>
+  <button id="menuBtn" aria-expanded="false">Menu</button>
+  <nav id="menu"><a href="#expedition">Rute</a><a href="#skills">Skills</a><a href="#process">Proses</a><a href="#education">Pendidikan</a><a href="#certificates">Sertifikat</a><a href="#adventure">Petualangan</a><a href="#contact">Kontak</a></nav>
+</header>
+
+<section class="hero">
+  <div class="giant" aria-hidden="true">Sugeng Rawuh</div>
+  <div class="photo"><img src="PROFIL.png" alt="Foto [NAMA LENGKAP]" onerror="this.remove()"><div class="sil" aria-hidden="true"></div></div>
+  <div class="intro">
+    <p class="hello">Hello, I'm</p>
+    <h1>Naufal<br>Arif Kurniawan</h1>
+    <p class="role">CYBER SECURITY ANALYST &amp; BUG HUNTER</p>
+    <p class="desc">Saya menemukan celah keamanan web secara etis dan menyusun laporan yang jelas. Di luar layar, saya mendaki gunung dan mendokumentasikan perjalanannya.</p>
+    <p class="avail"><i></i>Terbuka untuk kolaborasi</p>
+  </div>
+  <p class="tag"><i>✦</i>Mencari celah,<br>memperkuat sistem.</p>
+  <ul class="stats">
+    <li><b>2nd</b><span>Bug Bounty Nasional 2026<br>Kategori Siswa</span></li>
+    <li><b>Finalis</b><span>Bug Bounty Nasional 2025<br>Kategori Siswa</span></li>
+    <li><b>28</b><span>kali<br>pendakian</span></li>
+  </ul>
+</section>
+
+<section id="expedition" class="blk">
+  <h2>Summit Route <i class="rule"></i><span>Scroll untuk mendaki</span></h2>
+  <div class="stage" id="stage">
+    <svg id="routeSvg" viewBox="0 0 1000 400" role="img" aria-label="Rute pendakian animasi melewati gunung-gunung yang pernah didaki">
+      <defs>
+        <linearGradient id="rg1" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#0b2a55"/><stop offset="1" stop-color="#070707"/></linearGradient>
+        <linearGradient id="rg2" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#0a1a36"/><stop offset="1" stop-color="#070707"/></linearGradient>
+      </defs>
+      <g class="topo"><path d="M0 120C200 80 300 160 500 110S800 60 1000 100"/><path d="M0 170C220 130 320 210 520 160S820 110 1000 150"/><path d="M0 220C240 180 340 260 540 210S840 160 1000 200"/></g>
+      <path class="ridge b" id="ridgeB" d="M0 400V250L120 190L220 240L340 150L470 230L600 140L730 220L850 120L1000 210V400Z"/>
+      <path class="ridge f" id="ridgeF" d="M0 400V310L150 260L260 300L400 230L540 300L690 240L830 300L1000 250V400Z"/>
+      <path id="routeBase" d="M30 360C150 340 200 280 300 285S450 225 520 235S700 150 780 170S900 70 960 70"/>
+      <path id="route" d="M30 360C150 340 200 280 300 285S450 225 520 235S700 150 780 170S900 70 960 70"/>
+      <g id="cps"></g>
+      <circle id="dotHalo" r="14"/><circle id="dot" r="6"/>
+    </svg>
+    <div class="alt"><b id="altNum">0</b><span>MDPL</span><small id="altState">BASECAMP</small></div>
+  </div>
+</section>
+
+<section class="split3 blk">
+  <div id="skills">
+    <h2>Education &amp; Skills</h2>
+    <h3>Education</h3>
+    <div class="edu"><p>Teknik Informatika<small>Universitas Brawijaya</small></p><em>Angkatan 26</em></div>
+    <div class="edu"><p>Staff M00D HMDTIF<small>FILKOM UB</small></p><em>2026</em></div>
+    <h3>Skills</h3>
+    <div class="chips" id="chips"></div>
+  </div>
+  <div id="process">
+    <h2>Work Process</h2>
+    <ol class="steps" id="steps"></ol>
+  </div>
+  <aside class="quote">
+    <span class="q">“</span>
+    <p>Suatu kebanggan ketika saya<br>besar dan tumbuh di<br>Ngalam.</p>
+    <span class="sign">Naufal</span>
+    <small>PIT JAYA.</small>
+  </aside>
+</section>
+
+<section id="education" class="blk">
+  <h2>Riwayat Pendidikan <i class="rule"></i><span>Klik untuk lihat lokasi</span></h2>
+  <ol class="school" id="schools"></ol>
+</section>
+
+<section id="certificates" class="blk">
+  <h2>Certificates <i class="rule"></i><span>Bug Bounty</span></h2>
+  <div class="gal certs" id="certGrid"></div>
+</section>
+
+<section id="adventure" class="blk">
+  <h2>Adventure Log <i class="rule"></i><span>Geser untuk menjelajah</span></h2>
+  <div class="car rv">
+    <button class="cbtn prev" id="gPrev" type="button" aria-label="Foto sebelumnya">‹</button>
+    <div class="gal track" id="gal" tabindex="0" aria-label="Galeri pendakian, geser kanan dan kiri"></div>
+    <button class="cbtn next" id="gNext" type="button" aria-label="Foto berikutnya">›</button>
+    <div class="cfoot"><div class="cbar"><i id="gBar"></i></div><p class="ccount" id="gCount">01 / 08</p></div>
+  </div>
+</section>
+
+<footer id="contact" class="foot">
+  <div class="fgrid">
+    <div class="fcol">
+      <p class="fname">Naufal Arif Kurniawan</p>
+      <h3 class="fh">Hubungi Saya</h3>
+      <p>naufalarifkurniawan2@gmail.com<br>Malang, Jawa Timur</p>
+      <p class="note">Spek senang-senang.</p>
+    </div>
+    <nav class="fcol" aria-label="Fokus">
+      <h3 class="fh">Fokus</h3>
+      <ul><li><a href="#skills">Keamanan Web</a></li><li><a href="#certificates">Bug Bounty</a></li><li><a href="#adventure">Pendakian</a></li></ul>
+    </nav>
+    <nav class="fcol" aria-label="Tautan">
+      <h3 class="fh">Tautan</h3>
+      <ul><li><a href="#top">Beranda</a></li><li><a href="#expedition">Rute</a></li><li><a href="#skills">Skills</a></li><li><a href="#process">Proses</a></li><li><a href="#certificates">Sertifikat</a></li><li><a href="#adventure">Petualangan</a></li></ul>
+    </nav>
+  </div>
+  <div class="frule"></div>
+  <ul class="social" id="links"></ul>
+  <p class="credit">© <span id="yr"></span> Dibuat oleh <b>Naufal Arif Kurniawan</b>, menggunakan HTML, CSS &amp; JavaScript.</p>
+</footer>
+
+<div id="geo" hidden role="dialog" aria-modal="true" aria-label="Lokasi sekolah">
+  <button id="geoX" type="button" aria-label="Tutup">✕</button>
+  <div class="gwrap"><canvas id="globe" aria-hidden="true"></canvas><iframe id="gmap" title="Peta lokasi sekolah" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
+  <p id="geoCap"></p><a id="geoLink" target="_blank" rel="noopener" hidden>Buka di Google Maps ↗</a>
+</div>
+
+<div id="lb" hidden><button id="lbX" aria-label="Tutup">✕</button><figure><div id="lbImg"></div><figcaption id="lbCap"></figcaption></figure></div>
+<script src="script.js"></script>
+</body>
+</html>
